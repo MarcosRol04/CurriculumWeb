@@ -6,6 +6,25 @@
    ========================================================================== */
 const PROJECTS = [
   {
+    name: "MATCHZONE",
+    category: "web",
+    categoryLabel: "Web",
+    status: "done",
+    description: "Plataforma web de fútbol desarrollada y desplegada en producción con Next.js, TypeScript y Supabase. Incluye autenticación, roles de usuario, RLS, panel de administración, integración con Twitch API, SEO y configuración de monetización mediante Google AdSense y ads.txt.",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "PostgreSQL",
+      "Twitch API",
+      "Vercel",
+      "Google AdSense"
+    ],
+    demo: "https://matchzone-two.vercel.app/",
+    demoLabel: "Visitar MatchZone →",
+    github: "https://github.com/MarcosRol04/MatchZone"
+  },
+  {
     name: "DÖNER DIOSA FORTUNA",
     category: "web",
     categoryLabel: "Web",
